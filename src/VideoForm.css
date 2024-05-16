@@ -1,0 +1,61 @@
+.video-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-label {
+    font-size: 16px;
+    color: #4A148C;
+    margin-bottom: 8px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #4A148C;
+    outline: none;
+  }
+  
+  .form-textarea {
+    height: 100px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #4A148C;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: #380a6b;
+  }
+  
+  @media (max-width: 600px) {
+    .video-form {
+      padding: 10px;
+    }
+  
+    .form-button {
+      padding: 8px 16px;
+    }
+  }
+  
